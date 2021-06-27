@@ -34,7 +34,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Install dependencies
         run: |
-          make install
+          make install-azure
       - name: Lint
         run: |
           make lint          
